@@ -1,1 +1,1 @@
-web: gunicorn tmcsmust.wsgi --log-file
+web: gunicorn tmcsmust.wsgi:application --log-file -
