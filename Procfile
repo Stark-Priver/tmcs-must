@@ -1,0 +1,1 @@
+web: gunicorn tmcsmust.wsgi --log-file
