@@ -27,7 +27,10 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
-CSRF_TRUSTED_ORIGINS = ['https://eager-shape-40883.pktriot.net',]
+CSRF_TRUSTED_ORIGINS = [
+    'https://tmcs-must-production.up.railway.app',
+    'https://yourcustomdomain.com',  # If you have a custom domain
+]
 
 # Application definition
 
