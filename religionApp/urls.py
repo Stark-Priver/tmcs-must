@@ -7,7 +7,7 @@ from .views import MaswaliNaMajibu_create, MaswaliNaMajibu_list, MaswaliNaMajibu
 
 urlpatterns = [
     #################################
-    path('home/', views.welcome_page, name='welcome_page'),
+    path('', views.welcome_page, name='welcome_page'),
     path('about-us/', views.about_us, name='about-us'),
     path('contact-us/', views.contact_us, name='contact-us'),
     path('contact/success/', views.contact_success, name='contact-success'),

@@ -24,7 +24,7 @@ admin.site.site_header = 'ST. ALBERTO THE GREAT TMCS-MUST'
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('Authenticate/', include('AuthenticationApp.urls')),
-    path('Religion/', include('religionApp.urls')),
+    path('', include('religionApp.urls')),
     path('malipo/', include('malipoApp.urls')),
     path('accounts/', include('accountApp.urls')),
     path('kwaya/', include('kwayaApp.urls')),
